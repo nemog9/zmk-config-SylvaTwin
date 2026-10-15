@@ -72,6 +72,16 @@
             bindings = <&mkp MB4>;
             key-positions = <29 30>;
         };
+
+        eisuu {
+            bindings = <&kp LANG2>;
+            key-positions = <16 15>;
+        };
+
+        kana {
+            bindings = <&kp LANG1>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {

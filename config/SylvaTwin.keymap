@@ -95,7 +95,7 @@
 &kp LCTRL   &kp LGUI  &kp LALT  &kp LEFT_COMMAND  &kp LEFT_GUI  &lt 1 LANG2  &mkp RCLK  &mkp RCLK  &lt 2 LANG1  &lt 2 LANG1  &none      &kp LEFT  &kp DOWN   &kp RIGHT
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         layer_1 {
